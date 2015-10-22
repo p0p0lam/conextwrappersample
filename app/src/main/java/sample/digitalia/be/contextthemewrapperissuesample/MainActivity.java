@@ -13,12 +13,9 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		// Custom inner layout inflation with a dark theme
 		ViewGroup container = (ViewGroup) findViewById(R.id.inner_layout_container);
 		getSupportFragmentManager().beginTransaction().add(R.id.inner_layout_container, new BlankFragment1()).commit();
-		//ContextThemeWrapper wrapper = new ContextThemeWrapper(this, R.style.ThemeOverlay_AppCompat_Dark);
-		//LayoutInflater.from(wrapper).inflate(R.layout.inner_layout, container, true);
+
 	}
 
 	public void switchFragment(int which){

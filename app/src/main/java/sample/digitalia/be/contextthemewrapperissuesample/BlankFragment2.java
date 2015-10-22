@@ -35,6 +35,7 @@ public class BlankFragment2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        // Custom inner layout inflation with a specific theme
         ContextThemeWrapper wrapper = new ContextThemeWrapper(getActivity(), R.style.Theme_Kangaroo_NoActionBar_Contacts);
         View view = LayoutInflater.from(wrapper).inflate(R.layout.fragment_blank_fragment2, container, false);
         Toolbar toolbar = (Toolbar) view.findViewById(R.id.app_bar);
