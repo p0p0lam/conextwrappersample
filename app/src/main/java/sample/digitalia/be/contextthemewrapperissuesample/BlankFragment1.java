@@ -52,7 +52,7 @@ public class BlankFragment1 extends Fragment {
                 getMainActivity().switchFragment(2);
             }
         });
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = getActivity().getWindow();
 
 // clear FLAG_TRANSLUCENT_STATUS flag:
