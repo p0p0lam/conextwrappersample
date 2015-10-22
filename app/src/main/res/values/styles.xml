@@ -22,12 +22,14 @@
         <item name="colorPrimaryDark">@color/datacenter_primaryDark</item>
         <item name="colorAccent">@color/datacenter_accent</item>
         <item name="colorButtonNormal">@color/datacenter_accent</item>
+        <item name="android:statusBarColor">@color/datacenter_primaryDark</item>
     </style>
     <style name="Theme.Kangaroo.NoActionBar.Contacts" parent="Theme.Kangaroo.NoActionBar">
         <item name="colorPrimary">@color/contacts_primary</item>
         <item name="colorPrimaryDark">@color/contacts_primaryDark</item>
         <item name="colorAccent">@color/contacts_accent</item>
         <item name="colorButtonNormal">@color/contacts_accent</item>
+        <item name="android:statusBarColor">@color/contacts_primaryDark</item>
     </style>
     <style name="Widget.Kangaroo.ActionBar" parent="Widget.AppCompat.ActionBar">
         <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
